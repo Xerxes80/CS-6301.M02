@@ -1,9 +1,0 @@
-WordNet
-WordNet® are Nouns, verbs, adjectives, and adverbs grouped into cognitive synonyms (synsets), each expressing a distinct concept.
-WordNet's structure is helpful for computational linguistics and natural language processing.
-WordNet superficially resembles a thesaurus, which groups words based on their meanings. However, there are some crucial distinctions.
-WordNet interlinks are specific senses of words. So, words found close to one another in the network are semantically disambiguated.
-WordNet finds the semantic relations among words, whereas the groupings of words in a thesaurus do not follow any exact pattern other than meaning similarity.
-The most often encoded relation among synsets is the super-subordinate relation. This is because all noun hierarchies ultimately go up the root node.
-Hyponymy relation is transitive; WordNet differentiates among Types and Instances.
-Meronymy, the part-whole relation holds between synsets. This is because parts are inherited from their superordinates.
