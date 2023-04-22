@@ -1,9 +1,4 @@
-# CS 6301.M02
-# NLP Portfolio Component: Text Analysis
-# Kevin Tabesh
-# Net-id: KXT170430
 
-# ===========================
 import os
 import math
 import pickle
