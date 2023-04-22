@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Howdy", "What's up", "good day", "greetings", "what's up?", "how is it going?"],
+      "responses": ["Hello! How can I help you?", "Hi there! How can I assist you?", "Hey! What can I do for you?", "Howdy! What can I help you with?", "What's up? How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "Peace out", "bye", "cao", "see ya", "I am leaving"],
+      "responses": ["Goodbye! Have a nice day.", "See you later! Take care.", "Take care! Goodbye.", "Peace out! See you soon."]
+    },
+    {
+      "tag":  "age",
+      "patterns":  ["how old", "how old are you", "what is your age", "age"],
+      "responses": ["I born on March, 2023"]
+    },
+    {
+      "tag":  "name",
+      "patterns":  ["what is your name", "what should I call you", "whats your name?", "who are you", "can you tell me your name"],
+      "responses": ["You can call me Neurobot", "I am Neurobot", "My name is Neurobot"]
+    },
+    {
+      "tag": "source",
+      "patterns": ["source for *", "link for *", "website for *"],
+      "responses": ["Here's a link I found:", "You can find more information here:", "This website might be helpful:"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather like", "what's the temperature", "is it sunny today"],
+      "responses": ["I'm sorry, I don't have that information. Would you like me to search for it?", "I'm not sure. Shall I look that up?", "I don't know, would you like me to find out?"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "do you know any jokes"],
+      "responses": ["Why did the chicken cross the playground? To get to the other slide!", "Why don't scientists trust atoms? Because they make up everything!", "Why did the tomato turn red? Because it saw the salad dressing!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thank you so much"],
+      "responses": ["You're welcome!", "No problem.", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand your question. Could you please rephrase it?", "I'm not sure what you mean. Could you please clarify?", "I'm afraid I don't have an answer to that. Is there anything else I can help you with?"]
+    },
+    {
+      "tag": "search",
+      "patterns": ["Can you find information about", "What is", "Tell me about"],
+      "responses": ["Let me look that up for you.", "I'm not sure. Let me check.", "I don't know. Let me find out.", "I'm not familiar with that. Would you like me to search for it?"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "What can you do for me?"],
+      "responses": ["Of course, how can I assist you?", "Sure, what do you need help with?"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Do you have the time?", "What's the current time?"],
+      "responses": ["I'm sorry, I don't have access to the current time.", "I don't know the time. Is there anything else I can help you with?"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What is today's date?", "What's the date today?"],
+      "responses": ["I'm sorry, I don't have access to today's date.", "I'm afraid I can't tell you today's date. Is there anything else I can help you with?"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where am I?", "What's my location?", "What's my current location?"],
+      "responses": ["I'm sorry, I don't have access to your current location.", "I don't know where you are. Is there anything else I can help you with?"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Can you play some music?", "Play some music", "Can you recommend some music?"],
+      "responses": ["I'm sorry, I'm not able to play music for you.", "I'm not a music player, but I can recommend some music if you'd like."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["Can you tell me the latest news?", "What's in the news today?", "Any interesting news?"],
+      "responses": ["I'm sorry, I don't have access to the latest news.", "I'm afraid I can't tell you the latest news. Is there anything else I can help you with?"]
+    }
+  ]}
